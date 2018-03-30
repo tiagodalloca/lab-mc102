@@ -25,4 +25,4 @@ Fala Galera para quem não conhece esse é o GitHub. Uma plataforma para control
    Para a garantia do anonimato todos os colaboradores tem o direito de usar apelidos para suas colaborações. Então caso um colaborador queira manter-se anônimo basta usar uma conta que não o identifique e usar um apelido para o nome do arquivo e para o Pull request.
    > Ex: usar Furâo1000.py como nome de arquivo.
  ## Modelo dos arquivos
-   Para garantir a homogeneidade das soluções disponíveis só serâo aceitas contribuições que sigam o [Padrâo de estética do Python](https://www.python.org/dev/peps/pep-0008/). Além disso os arquivos devem conter comentários explicando como o código funciona.
+   Para garantir a homogeneidade das soluções disponíveis pedimos que de preferência sigam o [Padrâo de estética do Python](https://www.python.org/dev/peps/pep-0008/). Além disso os arquivos devem conter comentários explicando como o código funciona.
