@@ -26,3 +26,5 @@ Fala Galera para quem não conhece esse é o GitHub. Uma plataforma para control
    > Ex: usar Furâo1000.py como nome de arquivo.
  ## Modelo dos arquivos
    Para garantir a homogeneidade das soluções disponíveis pedimos que de preferência sigam o [Padrâo de estética do Python](https://www.python.org/dev/peps/pep-0008/). Além disso os arquivos devem conter comentários explicando como o código funciona.
+ ## Datas
+   Como o objetivo desse projeto é compartilhar o conhecimento de forma construtiva as soluções devem ser adcionadas após a data final de entrega no sistema susy.
