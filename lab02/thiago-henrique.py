@@ -2,28 +2,14 @@
 sabendo o pagamento inicial, descontos, taxa por distância, pontuação
 do mesmo e pontos de origem e destino'''
 
-#Valor inicial
+#Valores de entrada
 vi = float(input())
-
-#Coordenada x inicial
 xi = float(input())
-
-#Coordenada y inicial
 yi = float(input())
-
-#Coordenada x final
 xf = float(input())
-
-#Coordenada y final
 yf = float(input())
-
-#Tempo do percurso
 t = float(input())
-
-#Cupom
 cd = float(input())
-
-#Pontuação passageiro
 pr = float(input())
 
 #Distância
@@ -38,5 +24,5 @@ VD = max(cd, (VC*pr/100))
 #Valor final
 VF = VC - VD
 
-#Imprimi o resultado
+#Resultado
 print("%.2f" % VF)
