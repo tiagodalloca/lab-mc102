@@ -2,27 +2,27 @@
 da disciplina MC102'''
 
 #Valores de entrada
-P1=float(input())
-P2=float(input())
-Ml=float(input())
+P1 = float(input())
+P2 = float(input())
+Ml = float(input())
 
 #Média das provas
-Mp= float((2*P1 + 3*P2)/5)
+Mp = float((2*P1 + 3*P2)/5)
 
 #Regras do cálculo
-if Mp<5 or Ml<5:
-	if Mp<4.9:
-		M=Mp
+if Mp<  5 or Ml < 5:
+	if Mp < 4.9:
+		M = Mp
 	else:
-		M=4.9
+		M = 4.9
 else:
-	M= float((3*Mp + 2*Ml)/5)
+	M = float((3*Mp + 2*Ml)/5)
 
-if M<5 and M>= 2.5:
-	E= float(input())
-	F= float((M + E)/2)
+if M < 5 and M >= 2.5:
+	E = float(input())
+	F = float((M + E)/2)
 else:
-	F=float(M)
+	F =float(M)
 	
 #Resultados
 print ("%.1f" %Mp)
