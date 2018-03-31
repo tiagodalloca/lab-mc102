@@ -1,5 +1,3 @@
-# RA 206341
-
 # Programa que calcula média de MC102
 
 

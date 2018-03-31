@@ -1,5 +1,3 @@
-# RA 206341
-
 # DESCRIÇÃO
 
 # Escreva um programa que calcule a circunferência C de um determinado

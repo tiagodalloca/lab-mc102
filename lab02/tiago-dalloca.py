@@ -1,5 +1,3 @@
-# RA 206341
-
 # extraído do texto
 
 # VF = VC - VD
