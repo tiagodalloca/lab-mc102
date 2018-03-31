@@ -10,7 +10,7 @@ Ml = float(input())
 Mp = float((2*P1 + 3*P2)/5)
 
 #Regras do cálculo
-if Mp<  5 or Ml < 5:
+if Mp <  5 or Ml < 5:
 	if Mp < 4.9:
 		M = Mp
 	else:
