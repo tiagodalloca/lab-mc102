@@ -10,7 +10,7 @@ Fala Galera para quem não conhece esse é o GitHub. Uma plataforma para control
   ### Colaborando com o projeto:
    > Você precisará de uma conta no GitHub para isso.
    1. **Primeiro passo:** Clonar o repositório.
-      * Já logado em sua conta  clique na estrelinha. Isso criará uma copia do repositório em sua conta.
+      * Já logado em sua conta  clique no botão `Fork`. Isso criará uma copia do repositório em sua conta. Você pode clicar no botão da estrelinha também se achar o projeto legal!
 	 
    2. **Segundo passo:** Adicionando um [arquivo](#modelo-dos-arquivos).
       * Em sua cópia do repositório (a mesma está diponivel em seu perfil), vá até a pasta do lab que pretende adicionar.
@@ -23,7 +23,7 @@ Fala Galera para quem não conhece esse é o GitHub. Uma plataforma para control
       * Clique em "Pull request"
  ## Anonimato
    Para a garantia do anonimato todos os colaboradores tem o direito de usar apelidos para suas colaborações. Então caso um colaborador queira manter-se anônimo basta usar uma conta que não o identifique e usar um apelido para o nome do arquivo e para o Pull request.
-   > Ex: usar Furâo1000.py como nome de arquivo.
+   > Ex: usar Furao1000.py como nome de arquivo.
  ## Modelo dos arquivos
    Para garantir a homogeneidade das soluções disponíveis pedimos que de preferência sigam o [Padrâo de estética do Python](https://www.python.org/dev/peps/pep-0008/). Além disso os arquivos devem conter comentários explicando como o código funciona.
  ## Datas
