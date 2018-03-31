@@ -20,7 +20,7 @@ vi, xi, yi, xf, yf, t, cd, pr = \
 
 d = (xf - xi) + (yf - yi)
 VC = vi + d * t
-VD = max(cd, (VC * pr/100))
+VD = max(cd, (VC * pr / 100))
 VF = VC - VD
 
 print("%.2f" % VF)

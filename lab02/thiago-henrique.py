@@ -2,7 +2,7 @@
 sabendo o pagamento inicial, descontos, taxa por distância, pontuação
 do mesmo e pontos de origem e destino'''
 
-#Valores de entrada
+# Valores de entrada
 vi = float(input())
 xi = float(input())
 yi = float(input())
@@ -12,17 +12,17 @@ t = float(input())
 cd = float(input())
 pr = float(input())
 
-#Distância
+# Distância
 d = xf - xi + yf - yi
 
-#Valor da corrida
-VC = vi + d*t
+# Valor da corrida
+VC = vi + d * t
 
-#Valor do desconto
-VD = max(cd, (VC*pr/100))
+# Valor do desconto
+VD = max(cd, (VC * pr / 100))
 
-#Valor final
+# Valor final
 VF = VC - VD
 
-#Resultado
+# Resultado
 print("%.2f" % VF)
