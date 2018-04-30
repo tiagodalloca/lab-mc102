@@ -1,4 +1,4 @@
-# Lucas de Oliveira Silva 220715
+# Lucas de Oliveira Silva
 import re
 
 
