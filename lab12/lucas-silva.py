@@ -2,7 +2,6 @@
 
 # Laboratorio 12 - Tetris
 # Nome: Lucas de Oliveira Silva
-# RA: 220715
 
 ALTURA_TABULEIRO = 10
 LARGURA_TABULEIRO = 10
