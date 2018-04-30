@@ -1,4 +1,4 @@
-# Lucas de Oliveira Silva 220715
+# Lucas de Oliveira Silva 
 m, n, ites = *(int(i) for i in input().split()), int(input())
 grade = {l: dict(enumerate(input().split())) for l in range(m)}
 regras = {'0': lambda viz: '1' if viz[0] == 2 else '0',
