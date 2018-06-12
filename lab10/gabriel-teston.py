@@ -1,9 +1,12 @@
 # Gabriel Teston
 
 # Definido as funcoes necessarias
+
+
 def punctuation():
     """ Retorna uma lista com todas as pontuacoes possiveis. """
     return ['', ',', '.', '?', '!', ':', ' ']
+
 
 def erase(text):
     """ Retorna o text recebido removendo a palavra recebida como input abaixo. """
@@ -17,6 +20,7 @@ def erase(text):
             text_list.pop(i)
             aux.pop(i)
     return ' '.join(text_list)
+
 
 def invert(text):
     """ Retorna o texto recebido invertendo a palavra recebida como input abaixo. """
@@ -35,6 +39,7 @@ def invert(text):
                 text_list[i] = text_list[i][::-1]
                 aux[i] = aux[i][::-1]
     return ' '.join(text_list)
+
 
 def replace(text):
     """ Retorna o texto recebido subistituindo a palavra recebida como input imediatamente abaixo pela palavra recebida como input susequente. """
@@ -56,8 +61,9 @@ def replace(text):
     return ' '.join(text_list)
     return new_text
 
+
 # Dicionario das operacoes possiveis(switch case)
-ops ={
+ops = {
     "D": erase,
     "I": invert,
     "R": replace

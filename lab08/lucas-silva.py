@@ -3,7 +3,10 @@ from math import ceil
 n = int(input())
 db = [input().split() for i in range(n)]
 
-avg_map = lambda e: (e[0], float(e[2]) / float(e[1]))
+
+def avg_map(e): return (e[0], float(e[2]) / float(e[1]))
+
+
 db = [v for v in map(avg_map, db)]
 
 esp = {e[0]: 0 for e in db}

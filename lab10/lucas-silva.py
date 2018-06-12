@@ -11,7 +11,8 @@ def read_ops():
 
 
 reg_pal = '(?<!\w)%s(?!\w)'  # Regex para dar match em palavras separadas
-ops_nargs = {'D': 1 + 1, 'I': 1 + 1, 'R': 2 + 1}  # Número de parâmetros de cada operação, por conveniência soma-se 1
+# Número de parâmetros de cada operação, por conveniência soma-se 1
+ops_nargs = {'D': 1 + 1, 'I': 1 + 1, 'R': 2 + 1}
 
 texto = input()
 cmds = list(read_ops())
@@ -33,7 +34,12 @@ while i < len(cmds):
     elif operacao == 'R':
         texto = re.sub(reg_pal % args[0], args[1], texto, flags=re.IGNORECASE)
     elif operacao == 'D':
-        texto = re.sub('(?<!\w)%s(\W|$)' % args[0], '', texto, flags=re.IGNORECASE)
+        texto = re.sub(
+            '(?<!\w)%s(\W|$)' %
+            args[0],
+            '',
+            texto,
+            flags=re.IGNORECASE)
         texto = re.sub('\s+', ' ', texto)
         texto = re.sub('\s\W*(?=$)', '', texto)
 

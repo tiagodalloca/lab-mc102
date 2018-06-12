@@ -2,7 +2,8 @@
 n = int(input())
 beast_wealth = 0
 best_actions = []
-p_matrix = [[float(input()) for v in range(n)] for _ in range(4)]  # price matrix
+p_matrix = [[float(input()) for v in range(n)]
+            for _ in range(4)]  # price matrix
 
 
 def calc_best_wealth(used, actions, start, end):

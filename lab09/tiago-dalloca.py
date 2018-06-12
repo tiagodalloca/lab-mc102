@@ -57,7 +57,7 @@ for comb in combinations:
         max_profit = p
         max_profit_comb = comb
 
-c = [-1]*4
+c = [-1] * 4
 v = c.copy()
 
 for i, day in enumerate(max_profit_comb):

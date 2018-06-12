@@ -1,9 +1,11 @@
-# Lucas de Oliveira Silva 
+# Lucas de Oliveira Silva
 m, n, ites = *(int(i) for i in input().split()), int(input())
 grade = {l: dict(enumerate(input().split())) for l in range(m)}
-regras = {'0': lambda viz: '1' if viz[0] == 2 else '0',
-          '1': lambda viz: '2' if viz[1] >= 1 else '1',
-          '2': lambda viz: '0' if viz[0] >= 2 else ('0' if viz[0] == 0 else '2')}
+regras = {
+    '0': lambda viz: '1' if viz[0] == 2 else '0',
+    '1': lambda viz: '2' if viz[1] >= 1 else '1',
+    '2': lambda viz: '0' if viz[0] >= 2 else (
+        '0' if viz[0] == 0 else '2')}
 
 
 def map_grade():
@@ -28,4 +30,5 @@ def n_viz(i, j):
 print('iteracao 0\n' + '\n'.join(map(lambda l: ''.join(l.values()), grade.values())))
 for it in range(ites):
     grade = map_grade()
-    print('iteracao %i\n' % (it + 1) + '\n'.join(map(lambda l: ''.join(l.values()), grade.values())))
+    print('iteracao %i\n' % (it + 1) +
+          '\n'.join(map(lambda l: ''.join(l.values()), grade.values())))
